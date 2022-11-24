@@ -106,7 +106,7 @@ message Post {
     string name = 2;
     string description = 3;
     repeated Media medias = 4;
-    string customer_id = 5;
+    int64 customer_id = 5;
 }
 
 message Media {
